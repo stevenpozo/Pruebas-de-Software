@@ -1,0 +1,66 @@
+﻿@model Laboratorio1_3P.Models.ClientePostgres
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/style_Forms.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>@ViewData["Title"]</h1>
+        <h4>ClietPostgres</h4>
+        <hr />
+        <div class="form-container">
+            <h3>Are you sure you want to delete this?</h3>
+            <form asp-action="Delete">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="codigo" />
+                <div class="form-group">
+                    <label asp-for="cedula" class="control-label"></label>
+                    <input asp-for="cedula" class="form-control" disabled />
+                </div>
+                <div class="form-group">
+                    <label asp-for="apellidos" class="control-label"></label>
+                    <input asp-for="apellidos" class="form-control" disabled />
+                </div>
+                <div class="form-group">
+                    <label asp-for="nombres" class="control-label"></label>
+                    <input asp-for="nombres" class="form-control" disabled />
+                </div>
+                <div class="form-group">
+                    <label asp-for="fechanacimiento" class="control-label"></label>
+                    <input asp-for="fechanacimiento" class="form-control" disabled />
+                </div>
+                <div class="form-group">
+                    <label asp-for="mail" class="control-label"></label>
+                    <input asp-for="mail" class="form-control" disabled />
+                </div>
+                <div class="form-group">
+                    <label asp-for="telefono" class="control-label"></label>
+                    <input asp-for="telefono" class="form-control" disabled />
+                </div>
+                <div class="form-group">
+                    <label asp-for="direccion" class="control-label"></label>
+                    <input asp-for="direccion" class="form-control" disabled />
+                </div>
+                <div class="form-group">
+                    <label asp-for="estado" class="control-label"></label>
+                    <input type="checkbox" asp-for="estado" disabled />
+                    <span asp-validation-for="estado" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Delete" class="btn btn-danger" />
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

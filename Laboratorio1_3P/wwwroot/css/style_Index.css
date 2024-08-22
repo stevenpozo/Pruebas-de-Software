@@ -1,0 +1,93 @@
+﻿/* styles.css */
+
+/* General styling */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: auto;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-weight:bold;
+}
+  
+/* Button styles */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+
+/* Icon button styles */
+.btn-icon-edit {
+    display: inline-flex;
+    align-items: center;
+    color: forestgreen;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.btn-icon-delete {
+    display: inline-flex;
+    align-items: center;
+    color: red;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+    .btn-icon:hover {
+        color: #0056b3;
+    }
+
+/* Table styles */
+.custom-table {
+    width: 100%;
+   /* border-collapse: collapse;*/
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+    .custom-table th,
+    .custom-table td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .custom-table th {
+        background-color: #f8f9fa;
+        color: #333;
+    }
+
+    .custom-table tr:hover {
+        background-color: #f1f1f1;
+    }
+
+    .custom-table th:last-child,
+    .custom-table td:last-child {
+        text-align: center;
+    } 

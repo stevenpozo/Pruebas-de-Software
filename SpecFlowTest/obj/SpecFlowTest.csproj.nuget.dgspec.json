@@ -1,0 +1,181 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\6. Sexto Semestre\\4. Pruebas de software\\TERCER PARCIAL\\1. Tareas\\2. Configuración Aplicación Asp.Net Core PostgreSQL\\SpecFlowTest\\SpecFlowTest.csproj": {}
+  },
+  "projects": {
+    "D:\\6. Sexto Semestre\\4. Pruebas de software\\TERCER PARCIAL\\1. Tareas\\2. Configuración Aplicación Asp.Net Core PostgreSQL\\Laboratorio1_3P\\Laboratorio1_3P.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\6. Sexto Semestre\\4. Pruebas de software\\TERCER PARCIAL\\1. Tareas\\2. Configuración Aplicación Asp.Net Core PostgreSQL\\Laboratorio1_3P\\Laboratorio1_3P.csproj",
+        "projectName": "Laboratorio1_3P",
+        "projectPath": "D:\\6. Sexto Semestre\\4. Pruebas de software\\TERCER PARCIAL\\1. Tareas\\2. Configuración Aplicación Asp.Net Core PostgreSQL\\Laboratorio1_3P\\Laboratorio1_3P.csproj",
+        "packagesPath": "C:\\Users\\steve\\.nuget\\packages\\",
+        "outputPath": "D:\\6. Sexto Semestre\\4. Pruebas de software\\TERCER PARCIAL\\1. Tareas\\2. Configuración Aplicación Asp.Net Core PostgreSQL\\Laboratorio1_3P\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\steve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.17, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\6. Sexto Semestre\\4. Pruebas de software\\TERCER PARCIAL\\1. Tareas\\2. Configuración Aplicación Asp.Net Core PostgreSQL\\SpecFlowTest\\SpecFlowTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\6. Sexto Semestre\\4. Pruebas de software\\TERCER PARCIAL\\1. Tareas\\2. Configuración Aplicación Asp.Net Core PostgreSQL\\SpecFlowTest\\SpecFlowTest.csproj",
+        "projectName": "SpecFlowTest",
+        "projectPath": "D:\\6. Sexto Semestre\\4. Pruebas de software\\TERCER PARCIAL\\1. Tareas\\2. Configuración Aplicación Asp.Net Core PostgreSQL\\SpecFlowTest\\SpecFlowTest.csproj",
+        "packagesPath": "C:\\Users\\steve\\.nuget\\packages\\",
+        "outputPath": "D:\\6. Sexto Semestre\\4. Pruebas de software\\TERCER PARCIAL\\1. Tareas\\2. Configuración Aplicación Asp.Net Core PostgreSQL\\SpecFlowTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\steve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\6. Sexto Semestre\\4. Pruebas de software\\TERCER PARCIAL\\1. Tareas\\2. Configuración Aplicación Asp.Net Core PostgreSQL\\Laboratorio1_3P\\Laboratorio1_3P.csproj": {
+                "projectPath": "D:\\6. Sexto Semestre\\4. Pruebas de software\\TERCER PARCIAL\\1. Tareas\\2. Configuración Aplicación Asp.Net Core PostgreSQL\\Laboratorio1_3P\\Laboratorio1_3P.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.0.0, )"
+            },
+            "SpecFlow.MsTest": {
+              "target": "Package",
+              "version": "[3.9.40, )"
+            },
+            "SpecFlow.Plus.LivingDocPlugin": {
+              "target": "Package",
+              "version": "[3.9.57, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

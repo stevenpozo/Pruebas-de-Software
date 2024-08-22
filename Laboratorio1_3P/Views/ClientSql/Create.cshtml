@@ -1,0 +1,188 @@
+﻿@model Laboratorio1_3P.Models.ClientSql
+
+@{
+    ViewData["Title"] = "Create";
+    var provincias = new List<string>
+    {
+        "Azuay", "Bolívar", "Cañar", "Carchi", "Chimborazo", "Cotopaxi", "El Oro", "Esmeraldas", "Galápagos", "Guayas", "Imbabura", "Loja", "Los Ríos", "Manabí", "Morona Santiago", "Napo", "Orellana", "Pastaza", "Pichincha", "Santa Elena", "Santo Domingo de los Tsáchilas", "Sucumbíos", "Tungurahua", "Zamora-Chinchipe"
+    };
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Client</title>
+    <link rel="stylesheet" href="~/css/style_Forms.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Create Client</h1>
+        <hr />
+        <form asp-action="Create">
+            <div class="form-group">
+                <label asp-for="Provincia" class="control-label"></label>
+                <select asp-for="Provincia" class="form-control" onchange="generateCedula()">
+                    <option value="">Seleccione una provincia</option>
+                    @foreach (var provincia in provincias)
+                    {
+                        <option value="@provincia">@provincia</option>
+                    }
+                </select>
+                <span asp-validation-for="Provincia" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cedula" class="control-label"></label>
+                <input asp-for="Cedula" class="form-control" readonly />
+                <span asp-validation-for="Cedula" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Apellidos" class="control-label"></label>
+                <input asp-for="Apellidos" class="form-control" />
+                <span asp-validation-for="Apellidos" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Nombres" class="control-label"></label>
+                <input asp-for="Nombres" class="form-control" />
+                <span asp-validation-for="Nombres" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FechaNacimiento" class="control-label"></label>
+                <input asp-for="FechaNacimiento" class="form-control" type="date" />
+                <span asp-validation-for="FechaNacimiento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Mail" class="control-label"></label>
+                <input asp-for="Mail" class="form-control" />
+                <span asp-validation-for="Mail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Telefono" class="control-label"></label>
+                <input asp-for="Telefono" class="form-control" />
+                <span asp-validation-for="Telefono" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Direccion" class="control-label"></label>
+                <input asp-for="Direccion" class="form-control" />
+                <span asp-validation-for="Direccion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Saldo" class="control-label"></label>
+                <input asp-for="Saldo" class="form-control" disabled />
+            </div>
+            <div class="form-group">
+                <label asp-for="Estado" class="control-label"></label>
+                <input type="checkbox" asp-for="Estado" />
+                <span asp-validation-for="Estado" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" id="btnUwU" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+
+    <script>
+        function generateCedula() {
+            var provincia = document.querySelector('select[name="Provincia"]').value;
+            var cedulaInput = document.querySelector('input[name="Cedula"]');
+
+            if (provincia) {
+                var provinciaCode = {
+                    "Azuay": "01",
+                    "Bolívar": "02",
+                    "Cañar": "03",
+                    "Carchi": "04",
+                    "Cotopaxi": "05",
+                    "Chimborazo": "06",
+                    "El Oro": "07",
+                    "Esmeraldas": "08",
+                    "Guayas": "09",
+                    "Imbabura": "10",
+                    "Loja": "11",
+                    "Los Ríos": "12",
+                    "Manabí": "13",
+                    "Morona Santiago": "14",
+                    "Napo": "15",
+                    "Pastaza": "16",
+                    "Pichincha": "17",
+                    "Tungurahua": "18",
+                    "Zamora Chinchipe": "19",
+                    "Galápagos": "20",
+                    "Sucumbios": "21",
+                    "Orellana": "22",
+                    "Santo Domingo de los Tsáchilas": "23",
+                    "Santa Elena": "24"
+                };
+
+                var code = provinciaCode[provincia] || "00";
+
+                // Generar cédula válida
+                var cedula = generarCedulaValida(code);
+                cedulaInput.value = cedula;
+            } else {
+                cedulaInput.value = "";
+            }
+        }
+
+        function generarCedulaValida(provinciaCode) {
+            let cedula;
+            do {
+                cedula = generarCedula(provinciaCode);
+            } while (!validarCedula(cedula));
+            return cedula;
+        }
+
+        function generarCedula(provinciaCode) {
+            let cedula = provinciaCode;
+
+            // Tercer dígito entre 0 y 5
+            cedula += Math.floor(Math.random() * 6);
+
+            // Generar 6 dígitos aleatorios
+            for (let i = 0; i < 6; i++) {
+                cedula += Math.floor(Math.random() * 10);
+            }
+
+            // Calcular el dígito verificador
+            const digitoVerificador = calcularDigitoVerificador(cedula);
+
+            return cedula + digitoVerificador;
+        }
+
+        function calcularDigitoVerificador(cedula) {
+            const coeficientes = [2, 1, 2, 1, 2, 1, 2, 1, 2];
+            let suma = 0;
+
+            for (let i = 0; i < 9; i++) {
+                let valor = parseInt(cedula.charAt(i)) * coeficientes[i];
+                suma += valor > 9 ? valor - 9 : valor;
+            }
+
+            const digitoVerificador = 10 - (suma % 10);
+            return digitoVerificador == 10 ? 0 : digitoVerificador;
+        }
+
+        function validarCedula(cedula) {
+            if (cedula.length !== 10) {
+                return false;
+            }
+
+            const provincia = parseInt(cedula.substr(0, 2));
+            if (provincia < 1 || provincia > 24) {
+                return false;
+            }
+
+            const tercerDigito = parseInt(cedula.charAt(2));
+            if (tercerDigito > 5) {
+                return false;
+            }
+
+            return parseInt(cedula.charAt(9)) === calcularDigitoVerificador(cedula.substr(0, 9));
+        }
+    </script>
+
+
+</body>
+</html>

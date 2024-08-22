@@ -1,0 +1,186 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\6. Sexto Semestre\\4. Pruebas de software\\TERCER PARCIAL\\1. Tareas\\2. Configuraci\u00F3n Aplicaci\u00F3n Asp.Net Core PostgreSQL\\Laboratorio1_3P\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B681481-30AA-49EF-BECB-074CD6308E37}|..\\SpecFlowTest\\SpecFlowTest.csproj|d:\\6. sexto semestre\\4. pruebas de software\\tercer parcial\\1. tareas\\2. configuraci\u00F3n aplicaci\u00F3n asp.net core postgresql\\specflowtest\\features\\editarprueba.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B681481-30AA-49EF-BECB-074CD6308E37}|..\\SpecFlowTest\\SpecFlowTest.csproj|d:\\6. sexto semestre\\4. pruebas de software\\tercer parcial\\1. tareas\\2. configuraci\u00F3n aplicaci\u00F3n asp.net core postgresql\\specflowtest\\features\\ingresoprueba.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B681481-30AA-49EF-BECB-074CD6308E37}|..\\SpecFlowTest\\SpecFlowTest.csproj|d:\\6. sexto semestre\\4. pruebas de software\\tercer parcial\\1. tareas\\2. configuraci\u00F3n aplicaci\u00F3n asp.net core postgresql\\specflowtest\\stepdefinitions\\readpruebastepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B681481-30AA-49EF-BECB-074CD6308E37}|..\\SpecFlowTest\\SpecFlowTest.csproj|d:\\6. sexto semestre\\4. pruebas de software\\tercer parcial\\1. tareas\\2. configuraci\u00F3n aplicaci\u00F3n asp.net core postgresql\\specflowtest\\features\\readprueba.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A83EA3-47D2-4A18-85E4-8CDF991C2E0B}|Laboratorio1_3P.csproj|d:\\6. sexto semestre\\4. pruebas de software\\tercer parcial\\1. tareas\\2. configuraci\u00F3n aplicaci\u00F3n asp.net core postgresql\\laboratorio1_3p\\controllers\\clientesqlpruebacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A83EA3-47D2-4A18-85E4-8CDF991C2E0B}|Laboratorio1_3P.csproj|solutionrelative:controllers\\clientesqlpruebacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A83EA3-47D2-4A18-85E4-8CDF991C2E0B}|Laboratorio1_3P.csproj|d:\\6. sexto semestre\\4. pruebas de software\\tercer parcial\\1. tareas\\2. configuraci\u00F3n aplicaci\u00F3n asp.net core postgresql\\laboratorio1_3p\\views\\clientesqlprueba\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13A83EA3-47D2-4A18-85E4-8CDF991C2E0B}|Laboratorio1_3P.csproj|solutionrelative:views\\clientesqlprueba\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A83EA3-47D2-4A18-85E4-8CDF991C2E0B}|Laboratorio1_3P.csproj|d:\\6. sexto semestre\\4. pruebas de software\\tercer parcial\\1. tareas\\2. configuraci\u00F3n aplicaci\u00F3n asp.net core postgresql\\laboratorio1_3p\\data\\clientesqlpruebaaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A83EA3-47D2-4A18-85E4-8CDF991C2E0B}|Laboratorio1_3P.csproj|solutionrelative:data\\clientesqlpruebaaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A83EA3-47D2-4A18-85E4-8CDF991C2E0B}|Laboratorio1_3P.csproj|d:\\6. sexto semestre\\4. pruebas de software\\tercer parcial\\1. tareas\\2. configuraci\u00F3n aplicaci\u00F3n asp.net core postgresql\\laboratorio1_3p\\models\\clientesqlprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A83EA3-47D2-4A18-85E4-8CDF991C2E0B}|Laboratorio1_3P.csproj|solutionrelative:models\\clientesqlprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A83EA3-47D2-4A18-85E4-8CDF991C2E0B}|Laboratorio1_3P.csproj|d:\\6. sexto semestre\\4. pruebas de software\\tercer parcial\\1. tareas\\2. configuraci\u00F3n aplicaci\u00F3n asp.net core postgresql\\laboratorio1_3p\\controllers\\clientsqlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A83EA3-47D2-4A18-85E4-8CDF991C2E0B}|Laboratorio1_3P.csproj|solutionrelative:controllers\\clientsqlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A83EA3-47D2-4A18-85E4-8CDF991C2E0B}|Laboratorio1_3P.csproj|d:\\6. sexto semestre\\4. pruebas de software\\tercer parcial\\1. tareas\\2. configuraci\u00F3n aplicaci\u00F3n asp.net core postgresql\\laboratorio1_3p\\models\\clientsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A83EA3-47D2-4A18-85E4-8CDF991C2E0B}|Laboratorio1_3P.csproj|solutionrelative:models\\clientsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IngresoPrueba.feature",
+              "DocumentMoniker": "D:\\6. Sexto Semestre\\4. Pruebas de software\\TERCER PARCIAL\\1. Tareas\\2. Configuraci\u00F3n Aplicaci\u00F3n Asp.Net Core PostgreSQL\\SpecFlowTest\\Features\\IngresoPrueba.feature",
+              "RelativeDocumentMoniker": "..\\SpecFlowTest\\Features\\IngresoPrueba.feature",
+              "ToolTip": "D:\\6. Sexto Semestre\\4. Pruebas de software\\TERCER PARCIAL\\1. Tareas\\2. Configuraci\u00F3n Aplicaci\u00F3n Asp.Net Core PostgreSQL\\SpecFlowTest\\Features\\IngresoPrueba.feature",
+              "RelativeToolTip": "..\\SpecFlowTest\\Features\\IngresoPrueba.feature",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQWSURBVDhPdVRLb1tFFP7mPnztaydObOcJcWolhDRpVURQAyWNWgItsGlZ0YoFEgseKxCCFWv4AWzYIxAgQVRVlSo1En1IoDRtSUEpRFWUd9I4DztOff269r18c\u002B0oSRGf9dkzZ2Y\u002BnznnzBH4P3zRGMARXxtHcbKZdMg1uFjCVCmJr9IFzg/Cdd2Dgm\u002BQnylBTISH0Kydhakco0WKGXKZKFDwEfLOJObLV/BN5h42nXxtzYNa\u002BwVeNBScNRPoMs5BNd6FppwUEM8qQmlz4UYBEVGFGhNCtLo6vW5UutGglNDvS8GvZLFc9mT2BF8zWzFgjiCjvwdXDAc1M9JX36MnQp0ia\u002BfQZrbgWEOf8KuGb7OYikARXYjrIXTrj7DjJHG/VJQyVcGYIvC8McwNFzkbUaCorf5mXIifx\u002BmWE1jMrWAwOoC34\u002BcYJuBu\u002Bk95SiEPkRmslZcZglVYrmcEPgqbGPSf4ui04F/XayHYbhl\u002BNYBOM46j4T6ciL2AOtrLtO\u002BDTp7BkH8IH4c9g\u002BZ9G6IPmkj4FX/ombqE\u002BLT3Q6zk1rBgLeO3jdtYyK9gPrcIh\u002B7NZhe8I8RuQp/msJszxhlbVQ\u002BBLrKpgopquzbXBNoDLUjbGUykJykyjzup\u002BxjfuoclXv8JBJj5ZhYVhatxkIiQpu2UsVFMYWLzDyQLG8iWLY9WOYd0aRu2U0LMiKA7lEDMFwWzXj0NBMmYHOwKepCeyW8Zv216Z9kWr\u002BlwEyPLT6PRgJebjuNi51s42TQIkzGuQep44dsVXCctUwugP9yDT3rex6stwzgUiiOshRHW6xE1GuEXfnQE2vFm6wj3fIAIbTXI4k7LQdXnVwIKIuoAX87hfKUokoV13FwfR4f5FE41vQSfZuB49DnPq8cMwZXVa5hgTKcy0yg5JabdHUfaGcWveavq4c38Iubsv1kSy\u002BvFTVxekQcmIT3ua\u002BiBrugIqkGWz2Hv6tfXf8fY2g0vtsQyZu0ZaqTkpOrhbLmIuOZHlx7lM0sUnILuU3TRHmhFzsnhFr3N2DsIaUHMsXymMv\u002BAe1jisijdG7hTuopfrIdSaq85vBOqxxnzdejic1r7afGxLoWqKEJ6ItPiU31MUoXZtinmdZ8k7/wlruV/xvfZDSmz95YXyzYsZw1HjQc8LYu0oeJWZCnVEud6YrTJiRTLkF/jp\u002BxVjLHyi/JR7heUhu1KgcHdRK8xx5UZWmXm5PNqkltqkE3gIUrudxQbxe3CHFIs0Br2BCUsiiYZT00sMUnzvOUOGlVZG0dImYElchxblcu4lR/FWG4GKdfrMrs4KCghl/8quWxHWTbZAnp9IVpkV5nmta/zBj/ibukSvn28yr3e/ffjYMd\u002BEhfqwjgf7OConZyGqCRxKVfED5a3/F8A/wKUXZtBUQWfiQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-08-22T15:29:30.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReadPrueba.feature",
+              "DocumentMoniker": "D:\\6. Sexto Semestre\\4. Pruebas de software\\TERCER PARCIAL\\1. Tareas\\2. Configuraci\u00F3n Aplicaci\u00F3n Asp.Net Core PostgreSQL\\SpecFlowTest\\Features\\ReadPrueba.feature",
+              "RelativeDocumentMoniker": "..\\SpecFlowTest\\Features\\ReadPrueba.feature",
+              "ToolTip": "D:\\6. Sexto Semestre\\4. Pruebas de software\\TERCER PARCIAL\\1. Tareas\\2. Configuraci\u00F3n Aplicaci\u00F3n Asp.Net Core PostgreSQL\\SpecFlowTest\\Features\\ReadPrueba.feature",
+              "RelativeToolTip": "..\\SpecFlowTest\\Features\\ReadPrueba.feature",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQWSURBVDhPdVRLb1tFFP7mPnztaydObOcJcWolhDRpVURQAyWNWgItsGlZ0YoFEgseKxCCFWv4AWzYIxAgQVRVlSo1En1IoDRtSUEpRFWUd9I4DztOff269r18c\u002B0oSRGf9dkzZ2Y\u002BnznnzBH4P3zRGMARXxtHcbKZdMg1uFjCVCmJr9IFzg/Cdd2Dgm\u002BQnylBTISH0Kydhakco0WKGXKZKFDwEfLOJObLV/BN5h42nXxtzYNa\u002BwVeNBScNRPoMs5BNd6FppwUEM8qQmlz4UYBEVGFGhNCtLo6vW5UutGglNDvS8GvZLFc9mT2BF8zWzFgjiCjvwdXDAc1M9JX36MnQp0ia\u002BfQZrbgWEOf8KuGb7OYikARXYjrIXTrj7DjJHG/VJQyVcGYIvC8McwNFzkbUaCorf5mXIifx\u002BmWE1jMrWAwOoC34\u002BcYJuBu\u002Bk95SiEPkRmslZcZglVYrmcEPgqbGPSf4ui04F/XayHYbhl\u002BNYBOM46j4T6ciL2AOtrLtO\u002BDTp7BkH8IH4c9g\u002BZ9G6IPmkj4FX/ombqE\u002BLT3Q6zk1rBgLeO3jdtYyK9gPrcIh\u002B7NZhe8I8RuQp/msJszxhlbVQ\u002BBLrKpgopquzbXBNoDLUjbGUykJykyjzup\u002BxjfuoclXv8JBJj5ZhYVhatxkIiQpu2UsVFMYWLzDyQLG8iWLY9WOYd0aRu2U0LMiKA7lEDMFwWzXj0NBMmYHOwKepCeyW8Zv216Z9kWr\u002BlwEyPLT6PRgJebjuNi51s42TQIkzGuQep44dsVXCctUwugP9yDT3rex6stwzgUiiOshRHW6xE1GuEXfnQE2vFm6wj3fIAIbTXI4k7LQdXnVwIKIuoAX87hfKUokoV13FwfR4f5FE41vQSfZuB49DnPq8cMwZXVa5hgTKcy0yg5JabdHUfaGcWveavq4c38Iubsv1kSy\u002BvFTVxekQcmIT3ua\u002BiBrugIqkGWz2Hv6tfXf8fY2g0vtsQyZu0ZaqTkpOrhbLmIuOZHlx7lM0sUnILuU3TRHmhFzsnhFr3N2DsIaUHMsXymMv\u002BAe1jisijdG7hTuopfrIdSaq85vBOqxxnzdejic1r7afGxLoWqKEJ6ItPiU31MUoXZtinmdZ8k7/wlruV/xvfZDSmz95YXyzYsZw1HjQc8LYu0oeJWZCnVEud6YrTJiRTLkF/jp\u002BxVjLHyi/JR7heUhu1KgcHdRK8xx5UZWmXm5PNqkltqkE3gIUrudxQbxe3CHFIs0Br2BCUsiiYZT00sMUnzvOUOGlVZG0dImYElchxblcu4lR/FWG4GKdfrMrs4KCghl/8quWxHWTbZAnp9IVpkV5nmta/zBj/ibukSvn28yr3e/ffjYMd\u002BEhfqwjgf7OConZyGqCRxKVfED5a3/F8A/wKUXZtBUQWfiQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-08-22T14:55:24.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditarPrueba.feature",
+              "DocumentMoniker": "D:\\6. Sexto Semestre\\4. Pruebas de software\\TERCER PARCIAL\\1. Tareas\\2. Configuraci\u00F3n Aplicaci\u00F3n Asp.Net Core PostgreSQL\\SpecFlowTest\\Features\\EditarPrueba.feature",
+              "RelativeDocumentMoniker": "..\\SpecFlowTest\\Features\\EditarPrueba.feature",
+              "ToolTip": "D:\\6. Sexto Semestre\\4. Pruebas de software\\TERCER PARCIAL\\1. Tareas\\2. Configuraci\u00F3n Aplicaci\u00F3n Asp.Net Core PostgreSQL\\SpecFlowTest\\Features\\EditarPrueba.feature",
+              "RelativeToolTip": "..\\SpecFlowTest\\Features\\EditarPrueba.feature",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQWSURBVDhPdVRLb1tFFP7mPnztaydObOcJcWolhDRpVURQAyWNWgItsGlZ0YoFEgseKxCCFWv4AWzYIxAgQVRVlSo1En1IoDRtSUEpRFWUd9I4DztOff269r18c\u002B0oSRGf9dkzZ2Y\u002BnznnzBH4P3zRGMARXxtHcbKZdMg1uFjCVCmJr9IFzg/Cdd2Dgm\u002BQnylBTISH0Kydhakco0WKGXKZKFDwEfLOJObLV/BN5h42nXxtzYNa\u002BwVeNBScNRPoMs5BNd6FppwUEM8qQmlz4UYBEVGFGhNCtLo6vW5UutGglNDvS8GvZLFc9mT2BF8zWzFgjiCjvwdXDAc1M9JX36MnQp0ia\u002BfQZrbgWEOf8KuGb7OYikARXYjrIXTrj7DjJHG/VJQyVcGYIvC8McwNFzkbUaCorf5mXIifx\u002BmWE1jMrWAwOoC34\u002BcYJuBu\u002Bk95SiEPkRmslZcZglVYrmcEPgqbGPSf4ui04F/XayHYbhl\u002BNYBOM46j4T6ciL2AOtrLtO\u002BDTp7BkH8IH4c9g\u002BZ9G6IPmkj4FX/ombqE\u002BLT3Q6zk1rBgLeO3jdtYyK9gPrcIh\u002B7NZhe8I8RuQp/msJszxhlbVQ\u002BBLrKpgopquzbXBNoDLUjbGUykJykyjzup\u002BxjfuoclXv8JBJj5ZhYVhatxkIiQpu2UsVFMYWLzDyQLG8iWLY9WOYd0aRu2U0LMiKA7lEDMFwWzXj0NBMmYHOwKepCeyW8Zv216Z9kWr\u002BlwEyPLT6PRgJebjuNi51s42TQIkzGuQep44dsVXCctUwugP9yDT3rex6stwzgUiiOshRHW6xE1GuEXfnQE2vFm6wj3fIAIbTXI4k7LQdXnVwIKIuoAX87hfKUokoV13FwfR4f5FE41vQSfZuB49DnPq8cMwZXVa5hgTKcy0yg5JabdHUfaGcWveavq4c38Iubsv1kSy\u002BvFTVxekQcmIT3ua\u002BiBrugIqkGWz2Hv6tfXf8fY2g0vtsQyZu0ZaqTkpOrhbLmIuOZHlx7lM0sUnILuU3TRHmhFzsnhFr3N2DsIaUHMsXymMv\u002BAe1jisijdG7hTuopfrIdSaq85vBOqxxnzdejic1r7afGxLoWqKEJ6ItPiU31MUoXZtinmdZ8k7/wlruV/xvfZDSmz95YXyzYsZw1HjQc8LYu0oeJWZCnVEud6YrTJiRTLkF/jp\u002BxVjLHyi/JR7heUhu1KgcHdRK8xx5UZWmXm5PNqkltqkE3gIUrudxQbxe3CHFIs0Br2BCUsiiYZT00sMUnzvOUOGlVZG0dImYElchxblcu4lR/FWG4GKdfrMrs4KCghl/8quWxHWTbZAnp9IVpkV5nmta/zBj/ibukSvn28yr3e/ffjYMd\u002BEhfqwjgf7OConZyGqCRxKVfED5a3/F8A/wKUXZtBUQWfiQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-08-22T14:53:07.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClienteSqlPruebaController.cs",
+              "DocumentMoniker": "D:\\6. Sexto Semestre\\4. Pruebas de software\\TERCER PARCIAL\\1. Tareas\\2. Configuraci\u00F3n Aplicaci\u00F3n Asp.Net Core PostgreSQL\\Laboratorio1_3P\\Controllers\\ClienteSqlPruebaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClienteSqlPruebaController.cs",
+              "ToolTip": "D:\\6. Sexto Semestre\\4. Pruebas de software\\TERCER PARCIAL\\1. Tareas\\2. Configuraci\u00F3n Aplicaci\u00F3n Asp.Net Core PostgreSQL\\Laboratorio1_3P\\Controllers\\ClienteSqlPruebaController.cs",
+              "RelativeToolTip": "Controllers\\ClienteSqlPruebaController.cs",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAcwIgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T15:23:07.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReadPruebaStepDefinitions.cs",
+              "DocumentMoniker": "D:\\6. Sexto Semestre\\4. Pruebas de software\\TERCER PARCIAL\\1. Tareas\\2. Configuraci\u00F3n Aplicaci\u00F3n Asp.Net Core PostgreSQL\\SpecFlowTest\\StepDefinitions\\ReadPruebaStepDefinitions.cs",
+              "RelativeDocumentMoniker": "..\\SpecFlowTest\\StepDefinitions\\ReadPruebaStepDefinitions.cs",
+              "ToolTip": "D:\\6. Sexto Semestre\\4. Pruebas de software\\TERCER PARCIAL\\1. Tareas\\2. Configuraci\u00F3n Aplicaci\u00F3n Asp.Net Core PostgreSQL\\SpecFlowTest\\StepDefinitions\\ReadPruebaStepDefinitions.cs",
+              "RelativeToolTip": "..\\SpecFlowTest\\StepDefinitions\\ReadPruebaStepDefinitions.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwDoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T14:58:36.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClienteSqlPrueba.cs",
+              "DocumentMoniker": "D:\\6. Sexto Semestre\\4. Pruebas de software\\TERCER PARCIAL\\1. Tareas\\2. Configuraci\u00F3n Aplicaci\u00F3n Asp.Net Core PostgreSQL\\Laboratorio1_3P\\Models\\ClienteSqlPrueba.cs",
+              "RelativeDocumentMoniker": "Models\\ClienteSqlPrueba.cs",
+              "ToolTip": "D:\\6. Sexto Semestre\\4. Pruebas de software\\TERCER PARCIAL\\1. Tareas\\2. Configuraci\u00F3n Aplicaci\u00F3n Asp.Net Core PostgreSQL\\Laboratorio1_3P\\Models\\ClienteSqlPrueba.cs",
+              "RelativeToolTip": "Models\\ClienteSqlPrueba.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T15:11:38.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClientSql.cs",
+              "DocumentMoniker": "D:\\6. Sexto Semestre\\4. Pruebas de software\\TERCER PARCIAL\\1. Tareas\\2. Configuraci\u00F3n Aplicaci\u00F3n Asp.Net Core PostgreSQL\\Laboratorio1_3P\\Models\\ClientSql.cs",
+              "RelativeDocumentMoniker": "Models\\ClientSql.cs",
+              "ToolTip": "D:\\6. Sexto Semestre\\4. Pruebas de software\\TERCER PARCIAL\\1. Tareas\\2. Configuraci\u00F3n Aplicaci\u00F3n Asp.Net Core PostgreSQL\\Laboratorio1_3P\\Models\\ClientSql.cs",
+              "RelativeToolTip": "Models\\ClientSql.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAswAwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T15:17:38.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\6. Sexto Semestre\\4. Pruebas de software\\TERCER PARCIAL\\1. Tareas\\2. Configuraci\u00F3n Aplicaci\u00F3n Asp.Net Core PostgreSQL\\Laboratorio1_3P\\Views\\ClienteSqlPrueba\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\ClienteSqlPrueba\\Create.cshtml",
+              "ToolTip": "D:\\6. Sexto Semestre\\4. Pruebas de software\\TERCER PARCIAL\\1. Tareas\\2. Configuraci\u00F3n Aplicaci\u00F3n Asp.Net Core PostgreSQL\\Laboratorio1_3P\\Views\\ClienteSqlPrueba\\Create.cshtml",
+              "RelativeToolTip": "Views\\ClienteSqlPrueba\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T15:19:02.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClienteSqlPruebaAccessLayer.cs",
+              "DocumentMoniker": "D:\\6. Sexto Semestre\\4. Pruebas de software\\TERCER PARCIAL\\1. Tareas\\2. Configuraci\u00F3n Aplicaci\u00F3n Asp.Net Core PostgreSQL\\Laboratorio1_3P\\Data\\ClienteSqlPruebaAccessLayer.cs",
+              "RelativeDocumentMoniker": "Data\\ClienteSqlPruebaAccessLayer.cs",
+              "ToolTip": "D:\\6. Sexto Semestre\\4. Pruebas de software\\TERCER PARCIAL\\1. Tareas\\2. Configuraci\u00F3n Aplicaci\u00F3n Asp.Net Core PostgreSQL\\Laboratorio1_3P\\Data\\ClienteSqlPruebaAccessLayer.cs",
+              "RelativeToolTip": "Data\\ClienteSqlPruebaAccessLayer.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAADwv34AAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T14:45:30.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClientSqlController.cs",
+              "DocumentMoniker": "D:\\6. Sexto Semestre\\4. Pruebas de software\\TERCER PARCIAL\\1. Tareas\\2. Configuraci\u00F3n Aplicaci\u00F3n Asp.Net Core PostgreSQL\\Laboratorio1_3P\\Controllers\\ClientSqlController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClientSqlController.cs",
+              "ToolTip": "D:\\6. Sexto Semestre\\4. Pruebas de software\\TERCER PARCIAL\\1. Tareas\\2. Configuraci\u00F3n Aplicaci\u00F3n Asp.Net Core PostgreSQL\\Laboratorio1_3P\\Controllers\\ClientSqlController.cs",
+              "RelativeToolTip": "Controllers\\ClientSqlController.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAowFMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T15:17:54.784Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
